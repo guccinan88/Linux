@@ -1,0 +1,4 @@
+先看GRUB開機選單上要設定為預設的開機系統順位為多少，起始為0
+在終端機上輸入sudo gedit /etc/default/grub
+將GRUB_DEFAULT=0修改成GRUB_DEFAULT=要預設開機的順位，之後存檔
+接著在終端機上輸入sudo update-grub //更新GRUB清單
